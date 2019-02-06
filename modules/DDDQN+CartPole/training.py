@@ -51,7 +51,7 @@ save_ckpt_interval = 100
 
 episode_durations = []
 episode_loss = []
-i_episode = 400
+i_episode = 0
 
 policy_net.train()
 
