@@ -10,7 +10,7 @@ from utils import ReplayMemory, plot_durations
 from model_DDDQN import DQN, select_action, optimize_model, save_checkpoint, load_checkpoint
 
 # Turn on pyplot's interactive mode
-# VERY IMPORTANT because otherwise training stats plot will hault
+# VERY IMPORTANT because otherwise training stats plot will halt
 plt.ion()
 
 # Create CartPole gym environment
